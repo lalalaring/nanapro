@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\detail">
+      <UniqueIdentifier>{89e36f42-15de-422e-a486-a4de60c823f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filesystem">
+      <UniqueIdentifier>{01b7c279-f4ff-4029-8f2d-02ab9f5c7303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui">
+      <UniqueIdentifier>{7144ab03-3079-4afc-88e8-4c3799e30ae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\paint">
+      <UniqueIdentifier>{d1b43313-128b-49b2-8b94-45ba14ac91c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\system">
+      <UniqueIdentifier>{8249dafd-5391-45bd-9d70-e5759f0a0be4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\threads">
+      <UniqueIdentifier>{5a67d719-4b33-4c81-a96b-165d760066d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\detail">
+      <UniqueIdentifier>{74776db4-5041-4816-b9de-ec74cc508206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\widgets">
+      <UniqueIdentifier>{4dfc280c-f165-4949-80c5-08a909ce0a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\widgets\skeletons">
+      <UniqueIdentifier>{7edaa151-18a9-4f69-a4d6-068682dac2cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\paint\detail">
+      <UniqueIdentifier>{c9d7f2fb-ac26-43c4-8dc7-0e616b8f6f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\detail\win32">
+      <UniqueIdentifier>{933ed1fc-9c3f-4a1b-95b1-0b1a4c273f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\detail\win32">
+      <UniqueIdentifier>{a93f0a19-cdd9-475d-a89f-09777dacdcfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\audio">
+      <UniqueIdentifier>{d8dfbbaf-6c5a-4c27-a4c8-d903c7427961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\audio\detail">
+      <UniqueIdentifier>{a79b050a-0183-46ee-b263-1a6dcd8e53e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\any.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\basic_types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\datetime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\deploy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\exceptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\traits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\unicode_bidi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\filesystem\file_iterator.cpp">
+      <Filter>Source Files\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\filesystem\fs_utility.cpp">
+      <Filter>Source Files\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\basis.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\dragger.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\drawing.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\functional.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\layout.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\layout_utility.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\msgbox.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\programming_interface.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\timer.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\tooltip.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\wvl.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\detail\basic_window.cpp">
+      <Filter>Source Files\gui\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\detail\drawer.cpp">
+      <Filter>Source Files\gui\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\detail\event_manager.cpp">
+      <Filter>Source Files\gui\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\detail\native_window_interface.cpp">
+      <Filter>Source Files\gui\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\detail\timer_trigger.cpp">
+      <Filter>Source Files\gui\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\detail\window_manager.cpp">
+      <Filter>Source Files\gui\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\button.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\categorize.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\checkbox.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\combox.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\date_chooser.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\float_listbox.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\form.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\frame.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\label.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\listbox.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\login.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\menu.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\menubar.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\panel.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\picture.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\progress.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\scroll.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\slider.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\tabbar.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\textbox.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\toolbar.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\tray.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\treebox.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\widget.cpp">
+      <Filter>Source Files\gui\widgets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\widgets\skeletons\text_editor.cpp">
+      <Filter>Source Files\gui\widgets\skeletons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\threads\pool.cpp">
+      <Filter>Source Files\threads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\system\dataexch.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\system\platform.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\system\shared_wrapper.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\system\timepiece.cpp">
+      <Filter>Source Files\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\paint\gadget.cpp">
+      <Filter>Source Files\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\paint\graphics.cpp">
+      <Filter>Source Files\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\paint\image.cpp">
+      <Filter>Source Files\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\paint\image_process_selector.cpp">
+      <Filter>Source Files\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\paint\pixel_buffer.cpp">
+      <Filter>Source Files\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\paint\text_renderer.cpp">
+      <Filter>Source Files\paint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\paint\detail\image_process_provider.cpp">
+      <Filter>Source Files\paint\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\paint\detail\native_paint_interface.cpp">
+      <Filter>Source Files\paint\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\detail\win32\platform_spec.cpp">
+      <Filter>Source Files\detail\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\detail\win32\bedrock.cpp">
+      <Filter>Source Files\gui\detail\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\charset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\audio\detail\audio_device.cpp">
+      <Filter>Source Files\audio\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\audio\detail\audio_stream.cpp">
+      <Filter>Source Files\audio\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\audio\detail\buffer_preparation.cpp">
+      <Filter>Source Files\audio\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\audio\player.cpp">
+      <Filter>Source Files\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\place.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\animation.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\effects.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\element.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\gui\detail\window_layout.cpp">
+      <Filter>Source Files\gui\detail</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

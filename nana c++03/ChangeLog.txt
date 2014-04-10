@@ -1,0 +1,49 @@
+Nana C++ Library
+Version: 0.6.3
+==============
+Bugfix:
+	* A fix for tooltip in other monitor(qPCR4vir)
+	* Fixed a wrong typo(Geert Fannes)
+	* Fixed an inverted color when the PNG file is 32-bit depth color.
+	* Wrong dest position of graphics blend() method for Nana.C++03
+	* listbox display issue when the width of tet is larger than item.
+	* Can't select other items when the listbox category 0 and 1 are empty.
+
+Feature:
+	* Multiselection of listbox(qPCR4vir)
+	* A new documentation(Jean-Baptiste)
+	* A new key associated category for listbox.
+	* A new margin property for class place.
+
+Version: 0.6.1
+==============
+Bugfix:
+	* no effort when a zero-size widget set a font.
+	* a transparent window rendering issue.
+	* some errors in label widget.
+	* the 16bit depth color issue in X.
+
+Feature:
+	* 2 contributions by qPCR4vir.
+
+Version: 0.6
+==============
+Bugfix:
+	* size of icon fitting of treebox node.
+	* fixed a compiling error in VS2013.
+	* setting font is futile when the size of a widget width is zero.
+	* different behaviors of restore_window() between X11 and Windows.
+	* mouse wheel may not respond due to the lower SDK version.
+	* a fix for Unicode BiDi, and it improves the support of bidi languages.
+	* wrong window size when maximizing in secondary monitor.
+	* a bugfix sf#12(substitute for std::mutex in MinGW) provided by Gabor Janak.
+	* the pull requests(some fixs) provided by qPCR4vir.
+	
+Feature:
+	* a new element and facade classes for drawing a widget.
+	* a new compset class for the item renderer of a widget.
+	* a new item proxy.
+	* improved some widgets. treebox, listbox and label.
+	* a improved cloneable method to simplify the use.
+	* introduced a new C++11-like shared_ptr into Nana.C++03.
+	* a new method used for setting the default font.
